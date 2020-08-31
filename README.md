@@ -1,5 +1,10 @@
 
 
+> 目前服务器配置比较弱鸡，经常炸机，欢迎大佬赞助。mail to me .
+
+> 也欢迎小伙伴提交自己搭建的地址到issue,如果可以，创办个一起听歌吧联盟，把所有一起听歌吧的地址聚合在一起。分解服务器压力。
+
+
 如果遇到问题可以在本项目提 issue
 
 
@@ -10,6 +15,18 @@
 后端: 本项目
 
 前端: [Jusic-ui](https://github.com/JumpAlang/Jusic-ui/tree/jusic-ui-houses)
+
+
+
+## docker部署
+> 感谢小伙伴制作的docker <https://github.com/Jonnyan404>
+
+
+`docker run -d --name music -p 8089:8089 -p 8080:8080 -e IP=1.1.1.1 -e QQ=123456 jonnyan404/jusic`
+
+详情：
+<https://github.com/JumpAlang/Jusic-serve/issues/4#issuecomment-670856519>
+
 
 ## 安装
 
